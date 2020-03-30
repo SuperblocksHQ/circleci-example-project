@@ -1,14 +1,13 @@
-# [Truffle Reference Project](https://superblocks.com/d/superblocks/projects/reference-projects/)
+# [CircleCI example Project using Truffle](https://superblocks.com/d/superblocks/projects/reference-projects/)
 
-[![Superblocks](https://superblocks.com/d/superblocks/projects/reference-projects.svg?branch=master)](https://superblocks.com/d/superblocks/projects/reference-projects)
-
-Truffle reference repository to showcase Superblocks functionality on how to build and deploy your Ethereum contract projects
+[![CircleCI](https://circleci.com/gh/SuperblocksHQ/circleci-example-project.svg?style=svg)](https://circleci.com/gh/SuperblocksHQ/circleci-example-project)
 
 
 ## Features this project showcases
-* Fully automate your build proccess using Superblocks CI
-* Automate, track, sing and deploy your transactions using Superblocks
-
+CircleCI example project using truffle as SDK to showcase Superblocks functionality on how to:
+ - Track client sign deployments using our custom HDWallet
+ - Track and sign deployment transactions using Metamask / Ledger / Trezor directly in Superblocks
+ 
 
 ## Quick start
 Below is described how to get the a **Truffle** project setup and running locally.
