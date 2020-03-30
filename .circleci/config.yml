@@ -47,10 +47,12 @@ workflows:
       jobs:
         - deploy_to_rinkeby_automatic:
             filters:
-              only: 
-                - master
+              branches:
+                only: 
+                  - master
         - deploy_to_rinkeby_manually:
             type: approval
             filters:
-              only: 
-                - master
+              branches:
+                only: 
+                  - master
